@@ -62,13 +62,13 @@ products_database = {
 }
 
 # A list of the product types
-recycle_types = ["Paper", "Plastic", "Glass bottles", "Mentals", "Textile", "Electronics"]
+recycle_types = ["Paper", "Plastic", "Glass bottles", "Mental", "Textile", "Electronics"]
 
 if "page" not in st.session_state:
     st.session_state.page = 0
 
 def nextpage(): st.session_state.page += 1
-def previouspage(): st.session_state.page - 1
+def previouspage(): st.session_state.page -= 1
 def restart(): st.session_state.page = 0
 
 placeholder = st.empty()
@@ -124,7 +124,7 @@ st.markdown('<style>' + open('./style.css').read() + '</style>', unsafe_allow_ht
 def load_contract():
 
     # Load the contract ABI
-    with open(Path('./RecycleToken.json')) as f:
+    with open(Path('./recycletoken')) as f:
         RecycleToken = json.load(f)
 
     contract_address = os.getenv("SMART_CONTRACT_ADDRESS")
@@ -179,25 +179,20 @@ st_total = st.sidebar.write(amount)
 
 
 
-def transfer_funds(sender_address, recipient_address, amount):
-    # Implement the transfer logic here
-    # This function will be called when the button is clicked
-    st.write(f"Transferred {amount} funds from {sender_address} to {recipient_address}")
-# Streamlit app layout
 def transfer_funds(recipient_address, amount):
     sender_address = "0x4e14Be5A89718A300bb068a18b4274A6b42B6859"
     # Implement the transfer logic here
     # This function will be called when the button is clicked
     st.write(f"Transferred {amount} funds from {sender_address} to {recipient_address}")
 # Streamlit app layout
-st.sidebar.title("Wallet Transfer")
-st.sidebar.write("Enter the details below and click 'Transfer' to initiate the transfer.")
-recipient_address = st.sidebar.text_input("Recipient Address")
-amount = st_total
-transfer_button = st.sidebar.button("Transfer")
+st.title("Wallet Transfer")
+st.write("Enter the details below and click 'Transfer' to initiate the transfer.")
+recipient_address = st.text_input("Recipient Address")
+amount = st.number_input("Amount", min_value=0.0)
+transfer_button = st.button("Transfer")
 # Check if the transfer button is clicked
 if transfer_button:
-    if recipient_address:
+    if recipient_address and amount > 0:
         transfer_funds(recipient_address, amount)
     else:
         st.write("Please provide a valid recipient address and amount to initiate the transfer.")
