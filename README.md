@@ -11,16 +11,16 @@ In this case, we used Goerli to imitate Ethereum on the Goerli Testnetwork.
 ![PancakeSwapImage](https://github.com/mr-alex-leonov/Recycle-to-Earn/blob/Ritvik/LiquidityPanacakeSwap.PNG)
 
 Here is the liquidity of Goerli and RTK that shows the price of RTK for each Goerli coin
-[GoerliLiquidity](C:/Users/ritvi/Downloads/LiquidityPanacakeSwap.png)
+![GoerliLiquidity](C:/Users/ritvi/Downloads/LiquidityPanacakeSwap.png)
 
 Once the token is deployed, users can earn Goerli from a faucet and convert that to RTK. Here is what an RTK token looks like on MetaMask.
-[RTKtoken](C:/Users/ritvi/Downloads/RTKtoken.png)
+![RTKtoken](C:/Users/ritvi/Downloads/RTKtoken.png)
 
 We used Solidity, openzepplin, and hardhat to deploy the contract with information as follows:
-[RTKDeployment](C:/Users/ritvi/Downloads/RTKDeployment.png)
+![RTKDeployment](C:/Users/ritvi/Downloads/RTKDeployment.png)
 
 Here is the deployment script for the RTK Token:
-[DeploymentScript](C:/Users/ritvi/Downloads/DeploymentScript.png)
+![DeploymentScript](C:/Users/ritvi/Downloads/DeploymentScript.png)
 
 And here is the edited hardhat config code using goerli:
-[Config](C:/Users/ritvi/Downloads/ConfigFile.png)
+![Config](C:/Users/ritvi/Downloads/ConfigFile.png)
