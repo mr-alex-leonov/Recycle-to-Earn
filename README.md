@@ -8,7 +8,7 @@ The deployed contract is as follows:
 Additionally, we also worked with DApps such as Pancakeswap to build out a place where users can trade their ethereum or USDC to RTK or the other way around. 
 
 In this case, we used Goerli to imitate Ethereum on the Goerli Testnetwork.
-[PancakeSwapImage](Recycle-to-Earn/LiquidityPanacakeSwap.PNG)
+[PancakeSwapImage](LiquidityPanacakeSwap.PNG)
 
 Here is the liquidity of Goerli and RTK that shows the price of RTK for each Goerli coin
 [GoerliLiquidity](C:/Users/ritvi/Downloads/LiquidityPanacakeSwap.png)
