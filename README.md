@@ -27,6 +27,7 @@
 This shows our front-end application where users can recycle materials and earn ethereum currently based on the weight of the recycled material. Users would need to input their wallet address and the amount will be automatically calculated to be sent to the user's wallet address
 
 ![Streamlit](streamlit.PNG)
+
 ![transfer](transfer.PNG)
 
 ## RTK Token
