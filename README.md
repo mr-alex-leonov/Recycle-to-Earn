@@ -14,11 +14,11 @@
 
 ![Howitworks](howitworks.PNG)
 
-##Technical Briefing
+## Technical Briefing
 
 ![Technical Briefing](technicalbriefing.PNG)
 
-##Furture Development Ideas
+## Furture Development Ideas
 
 ![Future Developments](FutureDevelopments.PNG)
 
