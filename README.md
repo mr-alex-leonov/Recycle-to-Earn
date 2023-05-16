@@ -22,7 +22,6 @@
 
 ![Future Developments](FutureDevelopments.PNG)
 
-
 ## RTK Token
 
 Users would need to install hardhat and openzepplin to enable them to deploy the RTK Token
