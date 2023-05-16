@@ -27,7 +27,7 @@ This shows our front-end application where users can recycle materials and earn 
 
 ![Streamlit](streamlit.png)
 
-![transfer](transfer.PNG)
+![transfer](transfer.png)
 
 ## RTK Token
 
