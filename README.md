@@ -16,11 +16,11 @@
 
 ##Technical Briefing
 
-![Technical Briefing](technicalbriefing.png)
+![Technical Briefing](technicalbriefing.PNG)
 
 ##Furture Development Ideas
 
-![Future Developments](FutureDevelopments.png)
+![Future Developments](FutureDevelopments.PNG)
 
 
 ## RTK Token
