@@ -52,11 +52,11 @@ Once the token is deployed, users can earn Goerli from a faucet and convert that
 
 We used CSS scripts to make the front-end on streamlit look appealing to the end user who would be using the platform. The back-end code also shows how transfers work and additionally added functionality to implement the RTK token onto the Streamlit platform. 
 
-![recycletokenjson](recycletokenjson.PNG)
+![recycletokenjson](recycletokenjson.png)
 
-![styleCSS](stylecss.PNG)
+![styleCSS](stylecss.png)
 
-![streamlitcode](streamlitcode.PNG)
+![streamlitcode](streamlitcode.png)
 
 We used Solidity, openzepplin, and hardhat to deploy the contract with information as follows:
 ![RTKDeployment](https://github.com/mr-alex-leonov/Recycle-to-Earn/blob/Ritvik/RTKDeployment.PNG)
