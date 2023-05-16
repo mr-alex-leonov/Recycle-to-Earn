@@ -1,0 +1,32 @@
+
+import streamlit as st
+
+
+element.style {}
+
+.css-1629p8f {
+    font-family: poppins,sans-serif;
+}
+
+.css-1629p8f h1 {
+    color: #A0D8B3;
+    font-family: poppins,sans-serif;
+    margin-top: 0%;
+}
+
+.css-1y4p8pa {
+    width: 100%;
+    padding: 2rem 1rem 10rem;
+    max-width: 46rem;
+}
+.css-5rimss {
+    font-family: poppins,sans-serif;
+}
+img {
+    height: 100;
+    max-width: 100%;
+}
+
+.css-1629p8f h4 {
+    color: #94AF9F;
+}
