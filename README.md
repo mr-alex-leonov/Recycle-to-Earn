@@ -12,7 +12,7 @@
 
 ## Solutions Overview
 
-![Howitworks](howitworks.png)
+![Howitworks](howitworks.PNG)
 
 ##Technical Briefing
 
