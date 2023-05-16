@@ -1,4 +1,29 @@
-# RTK Token
+
+# Recycle-to-Earn 
+
+<b>Purpose</b>: Deploying a blockchain token “RTK” to incentivize recycling and reward participants for their efforts
+<b>Our goal</b>: Encourage sustainable practices and increase recycling rates
+
+## Problem Statement
+
+- Low recylcing rates and lack of motivation among individuals
+- Landfill accumulation, pollution, and resource depletion
+- Ineffective incentives and limited tracking capabilities 
+
+## Solutions Overview
+
+![Howitworks](howitworks.png)
+
+##Technical Briefing
+
+![Technical Briefing](technicalbriefing.png)
+
+##Furture Development Ideas
+
+![Future Developments](FutureDevelopments.png)
+
+
+## RTK Token
 
 Users would need to install hardhat and openzepplin to enable them to deploy the RTK Token
 
