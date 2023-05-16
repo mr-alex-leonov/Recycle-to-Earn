@@ -17,7 +17,7 @@ Once the token is deployed, users can earn Goerli from a faucet and convert that
 ![RTKtoken](https://github.com/mr-alex-leonov/Recycle-to-Earn/blob/Ritvik/RTKtoken.PNG)
 
 We used Solidity, openzepplin, and hardhat to deploy the contract with information as follows:
-![RTKDeployment]((https://github.com/mr-alex-leonov/Recycle-to-Earn/blob/Ritvik/RTKDeployment.PNG)
+![RTKDeployment](https://github.com/mr-alex-leonov/Recycle-to-Earn/blob/Ritvik/RTKDeployment.PNG)
 
 Here is the deployment script for the RTK Token:
 ![DeploymentScript](https://github.com/mr-alex-leonov/Recycle-to-Earn/blob/Ritvik/DeploymentScript.PNG)
