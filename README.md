@@ -1,11 +1,12 @@
 # Recycle-to-Earn 
 
 <b>Purpose</b>: Deploying a blockchain token “RTK” to incentivize recycling and reward participants for their efforts
+
 <b>Our goal</b>: Encourage sustainable practices and increase recycling rates
 
 ## Presentation Link
 
-https://docs.google.com/presentation/d/1ug9mNm_Ip26tH55VxLdWAjAlbwPiDj_R/edit#slide=id.p1
+[Presentation Link](https://docs.google.com/presentation/d/1ug9mNm_Ip26tH55VxLdWAjAlbwPiDj_R/edit#slide=id.p1)
 
 ## Problem Statement
 
